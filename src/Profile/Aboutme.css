@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+.aboutme {
+  margin-top: 30px;
+  background-color: #193328;
+  margin-bottom: 120px;
+  border: 1px solid yellowgreen;
+}
+
+.aboutme__information {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutme__information > h3 {
+  text-decoration: underline;
+}
+
+.aboutme__information > h3,
+p {
+  color: white;
+}
+
+.aboutme__information > p {
+  margin-left: 50px;
+}
+
+.aboutme_skills {
+  margin-top: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutme_skills > h3 {
+  text-decoration: underline;
+}
+.aboutme__buttons {
+  margin: 5px;
+}
+
+.aboutme__buttons > button {
+  margin: 3px;
+  border-radius: 5px;
+  cursor: not not-allowed;
+  background-color: rgb(213, 235, 244);
+}
+.aboutme_skills > h3 {
+  color: white;
+}
+
+.aboutme_profiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutme_profiles > h3 {
+  color: white;
+  text-decoration: underline;
+}
+.aboutme__profileLinks {
+  margin-top: 3px;
+  text-decoration: none;
+  font-size: large;
+}
+.aboutme__profileLinks a {
+  margin: 5px;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+}

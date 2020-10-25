@@ -1,0 +1,19 @@
+.education {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #193328;
+}
+
+.education__school > h4 {
+  color: white;
+}
+
+.education__school {
+  border: 1px solid yellowgreen;
+}
+
+ul {
+  color: white;
+}

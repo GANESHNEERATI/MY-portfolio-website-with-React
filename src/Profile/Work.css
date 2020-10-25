@@ -1,0 +1,30 @@
+.work {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #193328;
+  margin-bottom: 190px;
+  border: 1px solid yellowgreen;
+}
+
+.work__info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work__info__location {
+  margin-top: 10px;
+  display: flex;
+  color: white;
+}
+
+.work__info__location > h5 {
+  margin-top: 3px;
+}
+
+.work__desc {
+  margin-top: 10px;
+}
