@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 380px) {
   .header__left > div {
     display: none;
   }
@@ -44,7 +44,7 @@ ul > li {
   color: yellowgreen;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 380px) {
   .header__right {
     display: none;
   }
@@ -60,7 +60,7 @@ ul > li {
     border-radius: 5px;
   }
   .header__left > h3 {
-    margin-left: 300px;
+    margin-left: 200px;
   }
 
   .menu__icon,

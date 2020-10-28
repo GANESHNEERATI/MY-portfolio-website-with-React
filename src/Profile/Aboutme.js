@@ -7,13 +7,15 @@ function Aboutme() {
       <div className="aboutme_info">
         <div className="aboutme__information">
           <h3>About me</h3>
-          <p>
+          <section>
             I merge a passion for usability and user experience with technical
-            knowledge to create cool digital experiences. My repertoire includes
-            programming languages and tools such as
-            ReactJS,NodeJS,ExpressJS,Java,Python,Javascript,jQuery, Spring
+            knowledge to create cool digital experiences.
+          </section>
+          <section>
+            My repertoire includes programming languages and tools such as
+            ReactJS,NodeJS,ExpressJS,Java,Python,Javascript ,jQuery, Spring
             Framework and more.
-          </p>
+          </section>
         </div>
         <div className="aboutme_skills">
           <h3>Skills</h3>

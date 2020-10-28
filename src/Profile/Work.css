@@ -8,6 +8,10 @@
   border: 1px solid yellowgreen;
 }
 
+.work > h3 {
+  text-decoration: underline;
+}
+
 .work__info {
   margin-top: 10px;
   display: flex;
@@ -27,4 +31,5 @@
 
 .work__desc {
   margin-top: 10px;
+  margin-left: 15px;
 }

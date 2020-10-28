@@ -23,8 +23,8 @@ p {
   color: white;
 }
 
-.aboutme__information > p {
-  margin-left: 50px;
+.aboutme__information > section {
+  color: white;
 }
 
 .aboutme_skills {
@@ -72,5 +72,12 @@ p {
   color: white;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 380px) {
+  .aboutme__information > section {
+    font-size: medium;
+    font-weight: normal;
+    margin-left: 20px;
+
+    color: white;
+  }
 }

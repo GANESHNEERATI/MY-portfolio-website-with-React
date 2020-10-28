@@ -6,6 +6,9 @@
   border-top: 2px solid yellowgreen;
 }
 
+.contact > h3 {
+  text-decoration: underline;
+}
 .contact_textarea {
   display: flex;
   flex-direction: column;
@@ -34,4 +37,10 @@ textarea {
 .success_msg {
   color: yellowgreen;
   text-align: center;
+}
+
+@media screen and(max-width:400) {
+  .contact_textarea > textarea {
+    max-width: 300px;
+  }
 }

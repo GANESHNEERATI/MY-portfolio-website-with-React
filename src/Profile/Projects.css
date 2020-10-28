@@ -1,5 +1,6 @@
 .projects {
   margin-top: 20px;
+  margin-left: 2px;
   display: flex;
   flex-direction: column;
   background-color: #193328;
@@ -7,6 +8,7 @@
 
 .projects > h3 {
   text-align: center;
+  text-decoration: underline;
 }
 
 img {
@@ -51,15 +53,16 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 3800px) {
   .project {
     margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
   }
   p {
-    width: 400px;
+    width: 380px;
   }
 }

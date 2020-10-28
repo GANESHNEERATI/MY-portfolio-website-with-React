@@ -42,7 +42,7 @@
   background-color: white;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .profile {
     display: flex;
     flex-direction: column;
@@ -56,8 +56,10 @@
     align-items: center;
   }
   .profile__information1 {
-    display: flex;
+    font-size: medium;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-left: 20px;
   }
 }

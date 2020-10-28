@@ -1,9 +1,14 @@
 .education {
   margin-top: 10px;
+  margin-left: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: #193328;
+}
+.education > h3 {
+  text-decoration: underline;
 }
 
 .education__school > h4 {
@@ -16,4 +21,7 @@
 
 ul {
   color: white;
+}
+
+@media screen and(max-width:380) {
 }
