@@ -72,7 +72,7 @@ p {
   color: white;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .aboutme__information > section {
     font-size: medium;
     font-weight: normal;
